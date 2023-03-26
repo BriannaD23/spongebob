@@ -1,0 +1,151 @@
+*{
+    box-sizing:border-box;
+}
+
+html {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+
+
+body{
+    background-image: url("https://i.postimg.cc/BvqCyvDL/wp2636472.jpg") ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+   
+  
+
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-family: 'New York Hardcore', sans-serif;
+     color:#ffc0cb;
+    padding-top: 5px;
+    font-size: 60px;
+    padding-bottom: 0;
+}
+
+
+.hidden{
+    display: none;
+}
+
+#placeToSee {
+    height: 520px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+@media only screen and (max-width:700px){
+  
+  h1{
+    font-size:30px;
+  }
+  
+  #placeToSee{
+    height:230px;
+  }
+  
+  #Sponge{
+    height:200px;
+    width:200px;
+  }
+  
+  #Pat{
+    height:200px;
+    width:200px;   
+  }
+  
+  #Krabs{
+    height:200px;
+    width:200px;   
+  }
+  
+  #Plank{
+    height:200px;
+    width:200px;   
+  }
+  
+  #Sand{
+    height:200px;
+    width:200px;   
+  }
+  
+  #Larry{
+    height:200px;
+    width:200px;  
+  }
+  
+  #Squid{
+    height:200px;
+    width:200px;   
+  }
+  
+  #Pearly{
+    height:200px;
+    width:200px;   
+  }
+  
+
+/*--------------------icons------------------------------------------*/
+  #Spongebob{
+    height:40px;
+    width:40px;
+  }
+  
+  #Patrick{
+   height:40px;
+   width:40px;
+  }
+  
+  #MrKrabs{
+    height:40px;
+    width:40px;
+  }
+  
+  #Plankton{
+    height:40px;
+    width:40px; 
+  }
+  
+  #Sandy{
+    height:40px;
+    width:40px;
+  }
+  
+  #LarryLobster{
+    height:40px;
+    width:40px;
+    
+  }
+  
+    #Squidward{
+    height:40px;
+    width:40px;
+  }
+  
+  #Pearl{
+    height:40px;
+    width:40px;
+  }
+  
+  #icons{
+    flex-wrap: wrap;
+  }
+
+}
