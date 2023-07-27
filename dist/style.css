@@ -51,97 +51,102 @@ section {
 }
 
 
-@media only screen and (max-width:700px){
+@media  (max-width:767px){
   
   h1{
-    font-size:30px;
+    font-size:2.5rem;
   }
   
   #placeToSee{
-    height:230px;
+    height:400px;
+    width: 100%;
+  }
+
+  .container{
+    height: 220px;
   }
   
   #Sponge{
-    height:200px;
-    width:200px;
+    height:20rem;
+    width:90%;
   }
   
   #Pat{
-    height:200px;
-    width:200px;   
+    height:20rem;
+    width:90%;
   }
   
   #Krabs{
-    height:200px;
-    width:200px;   
+    height:20rem;
+    width:90%;  
   }
   
   #Plank{
-    height:200px;
-    width:200px;   
+    height:20rem;
+    width:90%;
   }
   
   #Sand{
-    height:200px;
-    width:200px;   
+    height:20rem;
+    width:90%; 
   }
   
   #Larry{
-    height:200px;
-    width:200px;  
+    height:20rem;
+    width:90%;
   }
   
   #Squid{
-    height:200px;
-    width:200px;   
+    height:20rem;
+    width:90%;  
   }
   
   #Pearly{
-    height:200px;
-    width:200px;   
+    height:20rem;
+    width:90%;
   }
   
 
 /*--------------------icons------------------------------------------*/
   #Spongebob{
-    height:40px;
-    width:40px;
+    height:3.3rem;
+    width:3.3rem;
   }
   
   #Patrick{
-   height:40px;
-   width:40px;
+    height:3.3rem;
+    width:3.3rem;
   }
   
   #MrKrabs{
-    height:40px;
-    width:40px;
+    height:3.3rem;
+    width:3.3rem;
   }
   
   #Plankton{
-    height:40px;
-    width:40px; 
+    height:3.3rem;
+    width:3.3rem; 
   }
   
   #Sandy{
-    height:40px;
-    width:40px;
+    height:3.3rem;
+    width:3.3rem;
   }
   
   #LarryLobster{
-    height:40px;
-    width:40px;
+    height:3.3rem;
+    width:3.3rem;
     
   }
   
-    #Squidward{
-    height:40px;
-    width:40px;
+  #Squidward{
+    height:3.3rem;
+    width:3.3rem;
   }
   
   #Pearl{
-    height:40px;
-    width:40px;
+    height:3.3rem;
+    width:3.3rem;
   }
   
   #icons{
@@ -149,3 +154,107 @@ section {
   }
 
 }
+
+/*-----------------------------larger media device--------------------------------*/
+@media (min-width: 768px) and (max-width: 1280px) {
+  h1{
+    font-size:4.2rem;
+  }
+  
+  #placeToSee{
+    height:35rem;
+    width: 100%;
+  }
+
+  .container{
+    height: 220px;
+  }
+  
+  #Sponge{
+    height:30rem;
+    width:80%;
+  }
+  
+  #Pat{
+    height:30rem;
+    width:80%;
+  }
+  
+  #Krabs{
+    height:30rem;
+    width:80%; 
+  }
+  
+  #Plank{
+    height:30rem;
+    width:80%;
+  }
+  
+  #Sand{
+    height:30rem;
+    width:80%;
+  }
+  
+  #Larry{
+    height:30rem;
+    width:80%;
+  }
+  
+  #Squid{
+    height:30rem;
+    width:80%;  
+  }
+  
+  #Pearly{
+    height:30rem;
+    width:80%;
+  }
+  
+
+/*--------------------icons------------------------------------------*/
+  #Spongebob{
+    height:5rem;
+    width:5rem;
+  }
+  
+  #Patrick{
+    height:5rem;
+    width:5rem;
+  }
+  
+  #MrKrabs{
+    height:5rem;
+    width:5rem;
+  }
+  
+  #Plankton{
+    height:5rem;
+    width:5rem; 
+  }
+  
+  #Sandy{
+    height:5rem;
+    width:5rem;
+  }
+  
+  #LarryLobster{
+    height:5rem;
+    width:5rem;
+    
+  }
+  
+  #Squidward{
+    height:5rem;
+    width:5rem;
+  }
+  
+  #Pearl{
+    height:5rem;
+    width:5rem;
+    
+  }
+  
+
+}
+
+
